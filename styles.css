@@ -94,8 +94,8 @@ section {
     flex-direction: column;
 }
 .center img {
-    width: 25vw;
-    height: 50vh;
+    width: 40vw;
+    height: 80vh;
 }
 .right {
     width: 33vw;
