@@ -160,7 +160,6 @@ section {
 .cards-conhecimentos {
     background-color: #2e2e35;
     width: 12vw;
-    height: 30vh;
     padding: 2vw;
     box-shadow: 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
 }
@@ -182,7 +181,6 @@ section {
 }
 .card-conhecimento-java {
     background-color: #2e2e35;
-    height: 30vh;
     padding: 2vw;
     width: 12vw;
     box-shadow: 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
@@ -238,8 +236,7 @@ section {
 }
 .cursos-TI {
     width: 14vw;
-    height: 15vh;
-    padding-top: 1vw;
+    padding: 1vw;
     background-color: #34343b;
     box-shadow: 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
 }
@@ -280,9 +277,11 @@ section {
     background-color: #2e2e35;
     display: flex;
     align-items: center;
-    width: 15vw;
-    height: 5vh;
+    padding: .5vw;
     box-shadow: 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
+}
+.contatos:hover {
+    cursor: pointer;
 }
 .contatos-texto img {
     width: 20vw;
@@ -299,7 +298,7 @@ section {
 .desenvolvido a {
     color: #dd6e21;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 .desenvolvido {
     padding-bottom: .5vw;
