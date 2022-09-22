@@ -2,12 +2,13 @@ window.onscroll = function(){
     scroll();
 }
 function scroll() {
-    var btn = document.getElementById("buutton");
-    if (document.documentElement.scrollTop > 90) {
-        btn.style.display = "block";
-        btn.style.transition = "0.3s";
+    let btn = document.getElementById("buutton"); 
+    if (document.documentElement.scrollTop == 0 && document.documentElement.scrollTop < 90 ) {
+        btn.style.display = "none";
     }
     else {
-        btn.style.display = "none";
-    }   
+        btn.style.display = "block";
+    }  
 }
+
+scroll();

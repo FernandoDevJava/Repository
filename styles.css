@@ -33,6 +33,7 @@ body {
     color: #dadada;
     padding: 1vw;
     text-decoration: none;
+    transition: .2s;
 }
 .links-internos a:hover {
     color: #dd6e21;
@@ -119,16 +120,19 @@ section {
 }
 .sobre-mim button {
     border: solid 3px #dd6e21;
-    width: 10vw;
-    height: 8vh;
+    padding: 1.4vw;
     background-color: #2e2e35;
     color: #dadada;
     font-size: 1vw;
     cursor: pointer;
+    transition: .3s;
+    box-shadow: 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
 }
 .sobre-mim button:hover {
     background-color: #dd6e21;
     color: #2e2e35;
+    padding: 1.5vw;
+    box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
 }
 
 
@@ -161,7 +165,7 @@ section {
     background-color: #2e2e35;
     width: 12vw;
     padding: 2vw;
-    box-shadow: 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
+    box-shadow: inset 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
 }
 .cards-conhecimentos h1 {
     font-size: 1.5vw;
@@ -183,7 +187,7 @@ section {
     background-color: #2e2e35;
     padding: 2vw;
     width: 12vw;
-    box-shadow: 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
+    box-shadow: inset 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
 }
 .card-conhecimento-java img {
     width: 4vw;
@@ -215,7 +219,7 @@ section {
     margin-bottom: 4vw;
 }
 .cards-conhecimentos-TI {
-    box-shadow: 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
+    box-shadow: inset 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
     padding: 0.4vw 0vw;
     background-color: #34343b;
 }
@@ -238,7 +242,11 @@ section {
     width: 14vw;
     padding: 1vw;
     background-color: #34343b;
-    box-shadow: 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
+    box-shadow: inset 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
+}
+.cursos-TI hr {
+    border: solid 2px #2b2b31;
+    margin-bottom: .5vw;
 }
 .cursos-TI h1 {
     font-size: 1.2vw;
@@ -273,15 +281,21 @@ section {
     text-align: left;
     margin-bottom: 4vw;
 }
+
+.card-contatos a {
+    text-decoration: none;
+    color:#dd6e21;
+}
 .contatos {
     background-color: #2e2e35;
     display: flex;
     align-items: center;
     padding: .5vw;
     box-shadow: 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
+    transition: 0.2s;
 }
 .contatos:hover {
-    cursor: pointer;
+    box-shadow: inset 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
 }
 .contatos-texto img {
     width: 20vw;
@@ -292,8 +306,9 @@ section {
     text-decoration: none;
 }
 .contatos img {
-    width: 1.6vw;
-    padding-top: .3vw;
+    width: 3.8vw;
+    padding-left: .6vw;
+    padding-right: 1vw;
 }
 .desenvolvido a {
     color: #dd6e21;
@@ -317,4 +332,7 @@ section {
 }
 .buttton button img {
     width: 1.5vw;
+}
+.buttton button:hover {
+    padding: 1.2vw;
 }
