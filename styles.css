@@ -31,12 +31,16 @@ body {
 }
 .links-internos a {
     color: #dadada;
-    padding: 1vw;
+    padding: .2vw 1vw;
+    background-image: linear-gradient(#dd6e21, #dd6e21);
+    background-size: 0% 3px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
     text-decoration: none;
-    transition: .2s;
+    transition: background-size 500ms ease;
 }
 .links-internos a:hover {
-    color: #dd6e21;
+    background-size: 30% 4px;
 }
 .button button {
     border: none;
@@ -82,8 +86,17 @@ section {
 .links-externos {
     font-size: 1.2vw;
 }
+.links-externos a {
+    padding: .2vw 1vw;
+    background-image: linear-gradient(#dd6e21, #dd6e21);
+    background-size: 0% 3px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    transition: background-size 500ms ease;
+}
 .links-externos a:hover {
-    color: #dd6e21;
+    background-size: 30% 4px;
 }
 .center {
     width: 33vw;
