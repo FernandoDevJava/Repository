@@ -51,6 +51,16 @@ body {
 .button img {
     width: 3vw;
 }
+@media (min-width: 360px) {
+    .Header a {
+        font-size: 2.5vw;
+    }
+}
+@media (min-width: 1000px) {
+    .Header a {
+        font-size: 1vw;
+    }
+}
 
 
 /*SECTION1*/
@@ -147,6 +157,57 @@ section {
     padding: 1.5vw;
     box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
 }
+@media (min-width: 360px) {
+    #home {
+        height: 50vh;
+    }
+    .left {
+        height: 30vh;
+        
+    }
+    .left a {
+        font-size: 2vw;
+    }
+    .center img {
+        height: 35vh;
+        margin-bottom: 35vh;
+    }    
+    .right h1 {
+        font-size: 2.5vw;
+    }
+    .right p {
+        font-size: 1.8vw;
+    }
+    .sobre-mim button {
+        font-size:  2vw;
+    }
+}
+@media (min-width: 1000px) {
+    #home {
+        height: 100vh;
+    }
+    .left {
+        height: 65vh;
+        
+    }
+    .left a {
+        font-size: 1vw;
+    }
+    .center img {
+        height: 80vh;
+        margin-top: 40vh;
+    }
+    .sobre-mim h1 {
+        font-size: 1.8vw;
+    }
+    .sobre-mim p {
+        font-size: 1.3vw;
+        padding-top: .5vw;
+    }
+    .sobre-mim button {
+        font-size:  1.2vw;
+    }
+}
 
 
 /* SECTION 2 */
@@ -213,6 +274,46 @@ section {
 .card-conhecimento-java h1 {
     font-size: 1.5vw;
 }
+@media (min-width: 360px) {
+    #section2 {
+        height: 50vh;
+    }
+    .card-externo {
+        margin-bottom: 50vh;
+    }
+    .card-externo h1 {
+        font-size: 2vw;
+    }
+    .card-externo p {
+        font-size: 1.8vw;
+    }
+    .cards-conhecimentos img {
+        width: 5vw;
+    }
+    .card-textos-top img {
+        width: 60vw;
+    }
+}
+@media (min-width: 1000px) {
+    #section2 {
+        height: 100vh;
+    }
+    .card-externo {
+        margin-bottom: 0;
+    }
+    .card-externo h1 {
+        font-size: 2vw;
+    }
+    .card-externo p {
+        font-size: 1.8vw;
+    }
+    .cards-conhecimentos img {
+        width: 5vw;
+    }
+    .card-textos-top img {
+        width: 60vw;
+    }
+}
 
 /* SECTION 3 */
 
@@ -252,7 +353,6 @@ section {
     background-position: bottom;
 }
 .cursos-TI {
-    width: 14vw;
     padding: 1vw;
     background-color: #34343b;
     box-shadow: inset 1px 1px 1px 1px rgba(0.3, 0.3, 0.3, 0.3);
@@ -268,6 +368,26 @@ section {
 .cursos-TI p {
     font-size: 1vw;
     padding-bottom: .2vw;
+}
+@media (min-width: 360px) {
+    #section3 {
+        height: 50vh;
+    }    
+    .estudos-textos img {
+        width: 70vw;
+    }
+    .cards-conhecimentos-TI p {
+        font-size: 1.8vw;
+    }
+    .cards-cursos {
+        margin-bottom: 50vh;
+    }
+    .cards-cursos h1 {
+        font-size: 1.8vw;
+    }
+    .cards-cursos p {
+        font-size: 1.8vw;
+    }
 }
 
 /* SECTION 4 */
