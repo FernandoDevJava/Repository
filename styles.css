@@ -389,6 +389,26 @@ section {
         font-size: 1.8vw;
     }
 }
+@media (min-width: 360px) {
+    #section3 {
+        height: 100vh;
+    }    
+    .estudos-textos img {
+        width: 50vw;
+    }
+    .cards-conhecimentos-TI p {
+        font-size: 1vw;
+    }
+    .cards-cursos {
+        margin-bottom: 0;
+    }
+    .cards-cursos h1 {
+        font-size: 1.5vw;
+    }
+    .cards-cursos p {
+        font-size: 1.2vw;
+    }
+}
 
 /* SECTION 4 */
 
@@ -451,6 +471,52 @@ section {
 .desenvolvido {
     padding-bottom: .5vw;
 }
+@media (min-width: 360px) {
+    #section4 {
+        height: 20vh;
+    }
+    .card-contatos {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 5vw;
+        text-align: left;
+        margin-bottom: 4vw;
+    }
+    .card-contatos img {
+        width: 6vw;
+    }
+    .contatos-texto img {
+        width: 60vw;
+    }
+    .desenvolvido a {
+        font-size: 5vw;
+    }
+}
+@media (min-width: 1000px) {
+    #section4 {
+        height: 60vh;
+    }
+    .card-contatos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2vw;
+        row-gap: 2vw;
+        text-align: left;
+        margin-bottom: 4vw;
+    }
+    .card-contatos img {
+        width: 3.8vw;
+    }
+    .contatos-texto img {
+        width: 20vw;
+    }
+    .desenvolvido a {
+        font-size: 2.5vw;
+    }
+}
+
+/* BUTTON BACK */
+
 .buttton button {
     padding: 1vw;    
     border-radius: 100%;
@@ -468,4 +534,25 @@ section {
 }
 .buttton button:hover {
     padding: 1.2vw;
+}
+
+@media (min-width: 360px) {
+    .buttton button {
+        padding: 3vw;
+    }
+    .buttton button img {
+        width: 3vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    .buttton button {
+        padding: 1.5vw;
+    }
+    .buttton button img {
+        width: 1.5vw;
+    }
+    .buttton button:hover {
+        padding: 1.2vw;
+    }
 }
