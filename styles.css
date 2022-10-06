@@ -302,16 +302,16 @@ section {
         margin-bottom: 0;
     }
     .card-externo h1 {
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
     .card-externo p {
-        font-size: 1.8vw;
+        font-size: 1vw;
     }
     .cards-conhecimentos img {
-        width: 5vw;
+        width: 4vw;
     }
     .card-textos-top img {
-        width: 60vw;
+        width: 50vw;
     }
 }
 
@@ -389,7 +389,7 @@ section {
         font-size: 1.8vw;
     }
 }
-@media (min-width: 360px) {
+@media (min-width: 1000px) {
     #section3 {
         height: 100vh;
     }    
@@ -403,10 +403,10 @@ section {
         margin-bottom: 0;
     }
     .cards-cursos h1 {
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
     .cards-cursos p {
-        font-size: 1.2vw;
+        font-size: 1vw;
     }
 }
 
@@ -505,14 +505,15 @@ section {
         margin-bottom: 4vw;
     }
     .card-contatos img {
-        width: 3.8vw;
+        width: 3vw;
     }
     .contatos-texto img {
         width: 20vw;
     }
     .desenvolvido a {
-        font-size: 2.5vw;
+        font-size: 1.8vw;
     }
+
 }
 
 /* BUTTON BACK */
@@ -547,7 +548,7 @@ section {
 
 @media (min-width: 1000px) {
     .buttton button {
-        padding: 1.5vw;
+        padding: 1vw;
     }
     .buttton button img {
         width: 1.5vw;
@@ -555,4 +556,5 @@ section {
     .buttton button:hover {
         padding: 1.2vw;
     }
+
 }
