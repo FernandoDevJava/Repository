@@ -26,12 +26,11 @@ body {
     align-items: center;
 }
 .links-internos {
-    display: block;
     font-size: 1vw;
 }
 .links-internos a {
     color: #dadada;
-    padding: .2vw 1vw;
+    padding: 2vw;
     background-image: linear-gradient(#dd6e21, #dd6e21);
     background-size: 0% 3px;
     background-position: left bottom;
@@ -543,6 +542,9 @@ section {
     }
     .buttton button img {
         width: 3vw;
+    }
+    .buttton button:hover {
+        padding: 3vw;
     }
 }
 
